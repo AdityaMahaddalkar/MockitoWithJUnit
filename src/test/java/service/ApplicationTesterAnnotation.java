@@ -10,7 +10,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-public class ApplicationTester {
+public class ApplicationTesterAnnotation {
     @Mock
     CalculatorService calculatorService;
 
